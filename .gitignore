@@ -1,0 +1,11 @@
+# Executable
+RobotArm
+
+# Output file
+*.csv
+
+# Vscode
+.vscode/*
+
+# Build folder
+build/*
