@@ -76,7 +76,7 @@ void mockEncoderPrecisionLost(Eigen::Vector3f& joints, int encoder_resolution = 
 /**
  * Function to get a value from an attribute given the json file and field.
  *
- * @param j the jason file.
+ * @param j the json file.
  * @param field the field to get attribute from.
  * @param att the attribute.
  *

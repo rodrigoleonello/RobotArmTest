@@ -16,11 +16,9 @@ namespace robot_arm_control {
  *
  * The created file has the following format:
  *
- * \rst
  * +------+---+---+---+----+----+----+--------+--------+--------+
  * | time | x | y | z | ux | uy | uz | theta1 | theta2 | theta3 |
  * +------+---+---+---+----+----+----+--------+--------+--------+
- * \endrst
  *
  */
 class SystemLogger {

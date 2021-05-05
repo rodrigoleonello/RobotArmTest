@@ -4,7 +4,6 @@
 
 #pragma once
 
-
 #include <Eigen/Geometry>
 #include <atomic>
 #include <chrono>
@@ -90,7 +89,7 @@ class Control {
    */
   void main(std::weak_ptr<Connection> connection);
 
-    /** The robot motion can be described by: \f$\dot{q} = u\f$, where \f$u\f$ 
+  /** The robot motion can be described by: \f$\dot{q} = u\f$, where \f$u\f$
    * is the velocity control signal (vector) applied to the motor drive of each joint. \n
    * We have: \f$\dot{x} = J * \dot{q} = J * u\f$, where \f$J\f$ is the Jacobian \n
    * Then: \f$u = J^{-1} * v(t)\f$, where \f$v(t)\f$ is the cartesian control signal. \n
@@ -109,7 +108,7 @@ class Control {
    * arbitrary joint velocities to avoid singularities.
    * \param joints the current robot joints
    * \param t current time (0 means start time)
-  */
+   */
   Eigen::Vector3f feedforwardControl(const Eigen::Vector3f& joints, 
     float t);
 
